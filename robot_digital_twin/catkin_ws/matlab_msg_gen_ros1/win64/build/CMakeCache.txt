@@ -145,7 +145,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 CMAKE_MT:FILEPATH=F:/Windows Kits/10/bin/10.0.22621.0/x86/mt.exe
 
 //No help, variable specified on the command line.
-CMAKE_PREFIX_PATH:UNINITIALIZED=F:\Program Files\MATLAB\R2024a\sys\ros1\win64\ros1;F:/Program Files/MATLAB/R2024a/toolbox/ros/mlroscpp/custom_messages
+CMAKE_PREFIX_PATH:UNINITIALIZED=F:\Program Files\MATLAB\R2024a\sys\ros1\win64\ros1;F:/Program Files/MATLAB/R2024a/toolbox/ros/mlroscpp/custom_messages;D:/Courses/digital_twin_robot/robot_digital_twin/catkin_ws/matlab_msg_gen_ros1/win64/install
 
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=

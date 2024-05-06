@@ -273,7 +273,7 @@ if __name__ == '__main__':
             try:
                 CMAKE_PREFIX_PATH = os.environ['ROS1_INSTALL_DIR'].split(';')
             except:
-                CMAKE_PREFIX_PATH = 'F:\Program Files\MATLAB\R2024a\sys\ros1\win64\ros1;F:/Program Files/MATLAB/R2024a/toolbox/ros/mlroscpp/custom_messages'.split(';')
+                CMAKE_PREFIX_PATH = 'F:\Program Files\MATLAB\R2024a\sys\ros1\win64\ros1;F:/Program Files/MATLAB/R2024a/toolbox/ros/mlroscpp/custom_messages;D:/Courses/digital_twin_robot/robot_digital_twin/catkin_ws/matlab_msg_gen_ros1/win64/install'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []
